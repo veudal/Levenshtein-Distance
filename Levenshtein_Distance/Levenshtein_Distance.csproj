@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Levenshtein-Distance</PackageId>
+    <Authors>SagMeinenNamen</Authors>
+    <Product>Levenshtein_Distance</Product>
+    <Description>Returns the Levenshtein-Distance between two inputs</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SagMeinenNamen/Levenshtein-Distance</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>levenshtein-distance; levenshtein; C#; .NET Core; Mini-Tool</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageIcon>levenshtein-2048x803.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\armul\Downloads\levenshtein-2048x803.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
